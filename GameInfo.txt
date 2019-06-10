@@ -1,0 +1,13 @@
+IFID: 39caeca0-4077-442c-81f2-f3c02dcb805c
+Name: WebUIdemo
+Byline: by Otto73
+HtmlByline: by <a href="mailto:ottocondliffe@gmail.com"> Otto73</a>
+AuthorEmail: Otto73 <ottocondliffe@gmail.com>
+Desc: Demo for some advanced features of the web UI
+HtmlDesc: Demo for some advanced features of the web UI
+Version: 1
+ReleaseDate: 2019-06-08
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default
