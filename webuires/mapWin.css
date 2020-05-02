@@ -1,0 +1,50 @@
+/*
+ *   TADS Web UI - style sheet for map window.
+ */
+
+/*
+ *   for some reason setting the font-size at 0px seems to eliminate the black
+ *   lines that can occur between the map tiles
+ */
+
+html, body, .wrapper {
+    height: 100%;
+}
+
+body {
+    background-color: black;   
+    font-size: 0px; 
+    font-family: Verdana, sans-serif;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+/* 
+ *   display: flex; and height: auto; may get rid of the unwanted lines between
+ *   the rows on Chrome
+ */
+
+.rsz {
+    display: flex;
+    height: 100%;
+}
+        
+
+/*
+ *   Apparently, Safari doesn't recognise height: 100%; on the img elements?
+ */
+  
+
+
+    

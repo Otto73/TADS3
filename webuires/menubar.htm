@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN">
+<html>
+<link rel="stylesheet" type="text/css" href="/webuires/menubar.css">
+<script type="text/javascript" src="/webuires/util.js"></script>
+<script type="text/javascript" src="/webuires/menubar.js"></script>
+
+<div class="nav-bar">
+    <div class="nav-bar">
+    <div id="button-wrapper">
+    <ul>
+        <li>
+            <a title="Quit the game" href="http://seriousgames.atwebpages.com/Index.htm"><button type="button">Quit</button></a>
+        </li>
+        <li>
+            <a title="Save Game" href="Save" onclick="javascript:return gamehref(event,'Save', 'main.command', this);">
+            <button type="button">Save</button></a>
+        </li>
+        <li>
+            <a title="Restore Saved Game" href="Restore" onclick="javascript:return gamehref(event,'Restore', 'main.command', this);">
+            <button type="button">Restore</button></a>
+        </li>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <li>
+            <a title="Go North" href="north" onclick="javascript:return gamehref(event,'north', 'main.command', this);">
+            <button type="button">North</button></a>
+        </li>
+        <li>
+            <a title="Go South" href="south" onclick="javascript:return gamehref(event,'south', 'main.command', this);">
+            <button type="button">South</button></a>
+        </li>
+        <li>
+            <a title="Go East" href="east" onclick="javascript:return gamehref(event,'east', 'main.command', this);">
+            <button type="button">East</button></a>
+        </li>
+        <li>
+            <a title="Go West" href="west" onclick="javascript:return gamehref(event,'west', 'main.command', this);">
+            <button type="button">West</button></a>
+        </li>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <li>
+            <a title="Repeat the description of the room or area you are in" href="look" 
+            onclick="javascript:return gamehref(event,'look', 'main.command', this);">
+            <button type="button">Look around</button></a>
+        </li> 
+    </ul>
+</div>
+</div>
+</body>
+</html>
